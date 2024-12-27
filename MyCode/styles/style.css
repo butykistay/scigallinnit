@@ -5,7 +5,7 @@ body {
   }
   
   header {
-    background-color: #f5abd9;
+    background-color: #0f00e2;
     color: rgb(0, 0, 0);
     padding: 1rem;
     text-align: center;
@@ -31,10 +31,95 @@ body {
     text-align: center;
   }
   
+
   footer {
-    background-color: #7f914e;
-    color: rgb(0, 0, 0);
+    background-color: #333;
+    color: white;
     text-align: center;
-    padding: 1rem;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+    position: fixed; /* Ensures it sticks to the bottom */
+    width: 100%;
+    bottom: 0;
+  }
+  footer p {
+    margin: 0;
   }
   
+  header {
+    background-color: #5263fa;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    font-family: 'Courier New', serif;
+  }
+  
+  .project-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .project-card {
+    background-color: #d1d0ff;
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.267);
+    border-radius: 8px;
+    transition: transform 0.2s;
+  }
+  
+  .project-card:hover {
+    transform: scale(1.05);
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  input, textarea, button {
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  @media (max-width: 600px) {
+    .project-grid {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .project-card {
+      width: 100%;
+    }
+  }
+  .project-card p {
+    font-size: 0.9rem;
+    color: #555;
+    margin: 0.5rem 0;
+  }
+
+  figure {
+    text-align: center;
+    margin: 1rem auto;
+  }
+  figcaption {
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: 0.5rem;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  @media (max-width: 768px) {
+    footer {
+      font-size: 0.8rem;
+    }
+  }
+  img {
+    max-width: 50px;
+    max-height: 50px;
+    display: inline-block;
+  }
+        
