@@ -1,0 +1,40 @@
+body {
+    font-family: 'Courier New', Courier, monospace, serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #f5abd9;
+    color: rgb(0, 0, 0);
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  nav a {
+    margin: 0 10px;
+    color: rgb(16, 1, 27);
+    text-decoration: none;
+  }
+  
+  .project-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  .project-card {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    width: 200px;
+    text-align: center;
+  }
+  
+  footer {
+    background-color: #7f914e;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 1rem;
+  }
+  
