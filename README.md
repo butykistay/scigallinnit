@@ -28,7 +28,7 @@
     </section>
   </main>
   <footer>
-    <p>&copy; 2024 SciGall. All rights reserved.</p>
+    <p>&copy; 2024 SciGall. UNION OTW.</p>
   </footer>
   <script src="scripts/app.js"></script>
 </body>
